@@ -20,7 +20,6 @@
 		{
 			switch ($propriete)
 			{
-				
 				case 'id' : return $this->id; break;
 				case 'nom' : return $this->nom; break;
 				case 'lesAlbums' : return $this->lesAlbums; break;
