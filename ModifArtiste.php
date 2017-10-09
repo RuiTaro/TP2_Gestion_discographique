@@ -28,7 +28,7 @@ try
 		}
 	}
 
-	îf (!empty($_POST['nom']))
+	if (!empty($_POST['nom']))
 	{
 		$nom = $_POST['nom'];
 		Artist::ajouterArtist($nom);

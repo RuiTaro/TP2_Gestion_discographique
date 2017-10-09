@@ -14,7 +14,6 @@
 				$this->nom = $nom;*/
 				$this->lesAlbums=array();
 			}
-			
 		}
 
 		public function __get($propriete)
